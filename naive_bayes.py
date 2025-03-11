@@ -137,4 +137,4 @@ novo_credito[:, 19] = labelencoder13.transform(novo_credito[:, 19])
 
 
 # Resultado da previsão
-print(naive_bayes.predict(novo_credito))
+print(f'Chance de Concessão de Credito: {naive_bayes.predict(novo_credito)}')
